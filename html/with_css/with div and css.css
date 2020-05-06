@@ -1,0 +1,246 @@
+/* style sheet */
+
+.c{
+	color : green ;
+}
+
+.head{
+	background-color: yellow;
+}
+body{
+	background-image: url(E:\img.jpg);
+	background-repeat : repeat-y;
+	 background-repeat: no-repeat;
+	  background-position:top right;
+	   background-attachment: fixed;
+	    background-size: cover;
+}
+
+#qu{
+border-style: dashed;
+border-width: 5px;
+border-color: white;
+border-radius: 25px; 
+margin:50px;/* margin property over here */
+
+}
+
+
+p{
+	border-bottom-style:solid;
+	border-bottom-color:#f8b400;
+	border-bottom-width:10px;
+	margin-bottom: 100px;
+  margin-right: 150px;
+  padding:10px; 
+  padding-bottom:130px;
+  text-align:center;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  word-spacing: 5px; /*- values anbe given size redues */
+  
+
+}
+}
+
+.q{
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  text-shadow: 1px 1px 2px black ;
+  
+  
+}
+li{
+	font-family: Arial;
+	   font-style: italic;
+	    font-size: 20px;
+		font-weight: bold;
+
+}
+a{
+	 color:white;
+}
+
+a:hover {
+  color: red;
+}
+a:active {
+  color: blue;
+}
+a {
+  text-decoration: none;
+}
+
+a {
+  background-color: red;
+}
+a:hover {
+  background-color: lightgreen;
+}
+a:active{
+	background-color:orange;
+}
+
+ul  {
+  list-style-type: square;
+}
+ol {
+  list-style-type: upper-roman;
+}
+
+
+ul {
+  list-style-position: inside;
+}
+ol {
+  list-style-position: outside;
+}
+ol li{
+	color:red;
+}
+ul li{
+	color:white;
+}
+
+
+ol {
+  background: gold;
+  padding: 20px;
+  margin:0px;
+/* margin:0;*/
+}
+
+ul {
+	/*margin:0;*/
+  background: lightgreen;
+  padding: 20px;
+  margin:0px;
+}
+ol li {
+  background: #b0eacd;
+  padding: 5px;
+  
+}
+
+ul li {
+  background: #faafff;
+  padding:10px;
+}
+table {
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid blue;
+}
+table {
+  width: 60%;
+  
+}
+
+th,td {
+  height: 50px;
+}
+
+tr:nth-child(even) {
+	background-color: orange;
+	}
+tr:nth-child(odd) {
+	background-color: lightgreen;
+	}
+td{
+	padding-left:5px;
+}
+tr:hover{
+	background-color:#f0134d;
+	color:white;
+}
+
+ol li {
+  display: inline;
+}
+
+
+.dis{
+	display:inline;
+	width:1000px;
+	height:300px;
+	background-color:red;
+}
+.sp{
+height:20px;
+width:200px;
+background-color:gold;
+}
+	
+.dis_1{
+	display:inline-block;
+	height:300px;
+	width:20px;
+	background-color:green;
+}
+
+
+.im{
+	position:relative;
+
+
+}
+#im{
+	float:right;
+}
+
+.gr{
+	width:auto;
+	height:320px;
+	border:2px solid red;
+		margin:0;
+		 background: linear-gradient(red, yellow);
+		 backgroud: repeating-linear-gradient(orange, white 10%, green 20%);
+}
+.ra{
+	width:auto;
+	height:auto;
+	border:4px solid blue;
+	 background: radial-gradient(orange, white, green);
+	 background: rpeating-radial-gradient(orange, white 10%, green 15%);
+}
+
+
+.an{
+	padding:9px;
+	width:30%;
+	border:2px solid red;
+	
+	background-color: red;
+	border-radius: 25px; 
+ 
+  animation-name: en; 
+  animation-duration: 20s;   
+}
+
+@keyframes en {
+  0%   {background-color: red;}
+  15%  {background-color: #eef5b2;}
+  30%  {background-color: #297ca0;}
+  45% {background-color: #eef5b2;}
+  60% {background-color: #46b3e6;}
+  75% {background-color: #4d80e4;}
+  88% {background-color: hotpink;}
+  95% {background-color: #e5dfdf;}
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
