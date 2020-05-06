@@ -1,0 +1,1 @@
+INTENSE CLUB home Page. INTENSE CLUB is a club formed by cse-b students @SRI INDU COLLEGE OF ENGINEEERING AND TECHNOLOGY.
